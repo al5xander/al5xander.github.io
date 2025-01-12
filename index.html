@@ -19,6 +19,9 @@
         background-color: black;
         color: white;
     }
+    table,tr,th,td {
+        border: 1px, solid black;
+    }
 </style>
 
     <head>
@@ -27,11 +30,97 @@
     <body>
         <button onclick="darkmode()">Dark mode</button>
 
-        <h1>My name is Alex</h1>
+        <h1>My name is Alexander</h1>
         <img src="alex.jpg" alt="Me" width="300" height="300">
         <br>
         <p>About me: </p>
-        
+        <p>My name is Alexander, i currently study Computer Science at UiT</p>
+        <table style="width: 75%;">
+            <tr>
+                <th>Classes</th>
+                <th>Grades</th>
+            </tr>
+            <tr><th>Autumn 2022</th></tr>
+            <tr>
+                <td>Inf-1100</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>Mat-1005</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>Mat-0001</td>
+                <td>Passed</td>
+            </tr>
+            <tr><th>Spring 2023</th></tr>
+
+            <tr>
+                <td>Inf-1101</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>Inf-1400</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>Sta-0001</td>
+                <td>C</td>
+            </tr>
+            <tr><th>Autumn 2023</th></tr>
+
+            <tr>
+                <td>Inf-2200</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>Inf-2220</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>Fil-0700</td>
+                <td>C</td>
+            </tr>
+            <tr><th>Spring 2024</th></tr>
+
+            <tr>
+                <td>Inf-2201</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>Bed-1002</td>
+                <td>Not Passed</td>
+            </tr>
+            <tr><th>Autumn 2024</th></tr>
+
+            <tr>
+                <td>Inf-2300</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>Inf-2700</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>Inf-1049</td>
+                <td>C</td>
+            </tr>
+            <tr><th>Spring 2025</th></tr>
+
+            <tr>
+                <td>Inf-2900</td>
+                <td>Ongoing</td>
+            </tr>
+            <tr>
+                <td>Inf-2310</td>
+                <td>Ongoing</td>
+            </tr>
+            <tr>
+                <td>Bed-1002</td>
+                <td>Ongoing</td>
+            </tr>
+            
+        </table>
         <script>
             function darkmode() {
                 var element = document.body;
