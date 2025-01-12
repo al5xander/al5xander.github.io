@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
-    p {text-align: center;}
+    img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    /* /* p {text-align: center;} */
     h1 {text-align: center;}
-    div {text-align: center;}
+    div {text-align: center;} */
+    body {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+    }
+    .dark-mode {
+        background-color: black;
+        color: white;
+    }
 </style>
 
     <head>
         <title>About me</title>
     </head>
     <body>
+        <button onclick="darkmode()">Dark mode</button>
 
-        <img src="alex.jpg" alt="Me" width="500" height="600">
         <h1>My name is Alex</h1>
+        <img src="alex.jpg" alt="Me" width="300" height="300">
         <br>
-        <p>this is my personal site</p>
-        <div>what is this</div>
+        <p>About me: </p>
         
+        <script>
+            function darkmode() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
     </body>
 </html>
