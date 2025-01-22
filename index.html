@@ -17,10 +17,16 @@
     }
 
     */ body {
+        overflow: hidden;
         padding: 25px;
         background-color: white;
         color: black;
         font-size: 25px;
+    }
+    
+
+    .box{
+        display: block;
     }
 
     .dark-mode {
@@ -41,6 +47,9 @@
 </head>
 
 <body>
+    
+    <div class="box green"></div>
+
     <button onclick="darkmode()">Dark mode</button>
 
     <h1>My name is Alexander</h1>
@@ -147,10 +156,15 @@
 
     </table>
     <script>
+        gsap.to(".box",{
+            x: 200,
+        });
+
         function darkmode() {
             var element = document.body;
             element.classList.toggle("dark-mode");
         }
+        
     </script>
 </body>
 
