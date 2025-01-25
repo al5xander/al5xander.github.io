@@ -1,69 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
-    img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    /* /* p {text-align: center;} */
-    h1 {
-        text-align: center;
-    }
-
-    div {
-        text-align: center;
-    }
-
-    */ body {
-        overflow: hidden;
-        padding: 25px;
-        background-color: white;
-        color: black;
-        font-size: 25px;
-    }
-    
-
-    .box{
-        display: block;
-    }
-
-    .dark-mode {
-        background-color: black;
-        color: white;
-    }
-
-    table,
-    tr,
-    th,
-    td {
-        border: 1px, solid black;
-    }
-</style>
-
+    <script src="index.js"></script>
 <head>
+    <link rel="stylesheet" href="index.css">
     <title>About me</title>
 </head>
 
 <body>
     
-    <div class="box green"></div>
-
     <button onclick="darkmode()">Dark mode</button>
 
+    
     <h1>My name is Alexander</h1>
     <img src="alex.jpg" alt="Me" width="300" height="300">
     <br>
     <p>About me: </p>
     <p>My name is Alexander, i currently study Computer Science at UiT</p>
+    <p>Here are my classes and their grades:</p>
     <table style="width: 25%;">
         <tr>
             <th>Classes</th>
             <th>Grades</th>
         </tr>
         <tr>
-            <th>Autumn 2022</th>
+            <th style="width: auto;">Autumn 2022</th>
         </tr>
         <tr>
             <td>Inf-1100</td>
@@ -80,7 +40,7 @@
         <tr>
             <th>Spring 2023</th>
         </tr>
-
+        
         <tr>
             <td>Inf-1101</td>
             <td>C</td>
@@ -96,7 +56,7 @@
         <tr>
             <th>Autumn 2023</th>
         </tr>
-
+        
         <tr>
             <td>Inf-2200</td>
             <td>C</td>
@@ -112,7 +72,7 @@
         <tr>
             <th>Spring 2024</th>
         </tr>
-
+        
         <tr>
             <td>Inf-2201</td>
             <td>D</td>
@@ -124,7 +84,7 @@
         <tr>
             <th>Autumn 2024</th>
         </tr>
-
+        
         <tr>
             <td>Inf-2300</td>
             <td>D</td>
@@ -140,7 +100,7 @@
         <tr>
             <th>Spring 2025</th>
         </tr>
-
+        
         <tr>
             <td>Inf-2900</td>
             <td>Ongoing</td>
@@ -153,19 +113,14 @@
             <td>Bed-1002</td>
             <td>Ongoing</td>
         </tr>
-
-    </table>
-    <script>
-        gsap.to(".box",{
-            x: 200,
-        });
-
-        function darkmode() {
-            var element = document.body;
-            element.classList.toggle("dark-mode");
-        }
         
-    </script>
+        <div class="box">
+            -this is a box
+            
+        </div>
+        
+    </table>
+    
 </body>
 
 </html>

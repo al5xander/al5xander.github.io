@@ -15,12 +15,12 @@ This is my personal portfolio hosted on GitHub, designed to showcase my projects
 
 ## Where Users Can Get Help
 If you have questions or need assistance:  
-- Open an issue in the relevant repository.  
-- Email me at [your-email@example.com].  
-- Reach out on LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile).  
+<!-- - Open an issue in the relevant repository.   -->
+- Email me at [alexi.3@hotmail.com].  
+<!-- - Reach out on LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile).   -->
 
 ## Who Maintains and Contributes to This Page
-This page is maintained by **[Your Name](https://github.com/yourusername)**. I’m always open to feedback and collaboration. Feel free to contribute to any of my repositories!
+This page is maintained by **[Alexander Guttormsen](https://github.com/al5xander)**. I’m always open to feedback and collaboration. Feel free to contribute to any of my repositories!
 
 ## Future Updates
 - Adding more projects as I complete them.  

@@ -1,0 +1,46 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* /* p {text-align: center;} */
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+*/ body {
+    overflow: hidden;
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+
+.box{
+    display: block;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px, solid black;
+}
+.box {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+  }
