@@ -1,5 +1,6 @@
 function darkmode() {
     var element = document.body;
+    var box = document.getElementById("box");
     element.classList.toggle("dark-mode");
-    element.classList.toggle("dark-box");
+    box.classList.toggle("dark-box");
 }
